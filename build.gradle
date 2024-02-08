@@ -5,14 +5,14 @@ plugins {
 }
 
 group = 'com.k-paas'
-version = '0.0.1-SNAPSHOT'
+version = '1.0'
 
 java {
-	sourceCompatibility = '17'
+	sourceCompatibility = '1.8'
 }
 
 ext {
-	set('springCloudVersion', "2023.0.0")
+	set('springCloudVersion', "2021.0.8")
 }
 
 repositories {
